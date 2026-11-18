@@ -61,14 +61,17 @@
             font-weight: bold;
             font-size: 20px;
             padding: 5px;
-            border: none;
+            border: 3px solid beige;
+            transition: transform 0.35s ease , box-shadow 0.25s ease;
         }
         .nav-bar .main-list a:hover{
             background-color:rgb(40 233 159) ;
             border-radius: 4px;
             color: Navy	rgb(24 26 42);
             border: 3px solid black;
-            transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out,border 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out,border 0.3s ease-in-out ,transform 0.3s ease-in-out ,box-shadow 0.3s ease-in-out ;
+            transform: scale(1.25);
+            box-shadow: 0 8px 6px rgb(97, 95, 95);
         }
 
         .nav-bar .contact-signup{
@@ -92,13 +95,16 @@
             background-color:rgb(40 233 159) ;
             border: 3px solid black;
             border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
         }
         
         .contact-signup .contact:hover{
             background-color: rgb(18, 20, 36);
             color: white;
             border:3px solid rgb(40 233 159);
-            transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out , border 0.3s ease-in-out;
+            box-shadow: 0 8px 6px black;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+            transform: scale(2);
         }
         .contact-signup .sign-up {
             color: rgb(21, 20, 20);
@@ -111,13 +117,16 @@
             color: white ;
             border: 3px solid rgb(40 233 159);
             border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
         }
         
         .contact-signup .sign-up:hover{
             background-color:rgb(40 233 159);
             color: rgb(3, 3, 3);
             border: 3px solid rgb(18, 17, 17);
-            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border 0.3s ease-in-out;
+            box-shadow: 0 8px 6px black;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+            transform: scale(1.25);
         }
     </style>
 </head>
